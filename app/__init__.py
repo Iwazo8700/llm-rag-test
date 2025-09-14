@@ -6,8 +6,4 @@ from .database import ChromaDBManager
 from .embeddings import EmbeddingGenerator
 from .rag import RAGPipeline
 
-__all__ = [
-    "ChromaDBManager",
-    "EmbeddingGenerator",
-    "RAGPipeline"
-]
+__all__ = ["ChromaDBManager", "EmbeddingGenerator", "RAGPipeline"]
